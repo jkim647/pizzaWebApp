@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import pic_1 from '../img/pizza_header_3.jpg'
 import pic_2 from '../img/pizza_header_2.jpg'
-
 import './header.css';
 import Carousel from 'react-bootstrap/Carousel'
 
@@ -15,6 +14,7 @@ function ControlledCarousel() {
   };
 
   return (
+    
     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
       <Carousel.Item>
         <img
